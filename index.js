@@ -10,6 +10,8 @@ for (let key in myObj) {
     console.log(key);
 }
 
+let newArr = [];
 for (let num of arr) {
-    console.log(num);
+    newArr.push(num);
 }
+console.log(newArr);
